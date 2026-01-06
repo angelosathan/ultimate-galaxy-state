@@ -1,64 +1,56 @@
 {
-  "queue": [
+  "version": 2,
+  "cycle": 0,
+  "fleet_orders": [
     {
-      "player": "P1",
-      "action_type": "",
-      "target_id": "",
-      "details": {}
+      "order_id": "FO_001",
+      "player": "",
+      "fleet_id": "",
+      "destination_system": "",
+      "eta_cycles": 0
+    }
+  ],
+  "mega_project_orders": [
+    {
+      "order_id": "MPO_001",
+      "player": "",
+      "project_id": "",
+      "project_type": "",
+      "target_system": "",
+      "assigned_cycles": 0
+    }
+  ],
+  "agent_orders": [
+    {
+      "order_id": "AO_001",
+      "player": "",
+      "agent_id": "",
+      "mission": "",
+      "target_faction": "",
+      "eta_cycles": 0
+    }
+  ],
+  "battle_tactics": [
+    {
+      "combat_id": "PC_001",
+      "attacker_action": "",
+      "defender_action": "",
+      "attacker_abilities": [],
+      "defender_abilities": []
     },
     {
-      "player": "P2",
-      "action_type": "",
-      "target_id": "",
-      "details": {}
+      "combat_id": "PC_002",
+      "attacker_action": "",
+      "defender_action": "",
+      "attacker_abilities": [],
+      "defender_abilities": []
     },
     {
-      "player": "P3",
-      "action_type": "",
-      "target_id": "",
-      "details": {}
-    },
-    {
-      "player": "P4",
-      "action_type": "",
-      "target_id": "",
-      "details": {}
-    },
-    {
-      "player": "P5",
-      "action_type": "",
-      "target_id": "",
-      "details": {}
-    },
-    {
-      "player": "P6",
-      "action_type": "",
-      "target_id": "",
-      "details": {}
-    },
-    {
-      "player": "P7",
-      "action_type": "",
-      "target_id": "",
-      "details": {}
-    },
-    {
-      "player": "P8",
-      "action_type": "",
-      "target_id": "",
-      "details": {}
-    },
-    {
-      "player": "P9",
-      "action_type": "",
-      "target_id": "",
-      "details": {}
-    },
-    {
-      "player": "P10",
-      "action_type": "",
-      "target_id": "",
-      "details": {}
+      "combat_id": "PC_003",
+      "attacker_action": "",
+      "defender_action": "",
+      "attacker_abilities": [],
+      "defender_abilities": []
     }
   ]
 }
