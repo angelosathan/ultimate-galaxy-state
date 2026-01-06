@@ -6,47 +6,14 @@
       "fleet_id": "F_001",
       "owner": "",
       "ships": [],
-      "ground_forces": [],
-      "air_forces": [],
-      "naval_forces": [],
-      "current_system": "",
-      "destination_system": "",
-      "eta_cycles": 0
-    },
-    {
-      "fleet_id": "F_002",
-      "owner": "",
-      "ships": [],
-      "ground_forces": [],
-      "air_forces": [],
-      "naval_forces": [],
-      "current_system": "",
-      "destination_system": "",
-      "eta_cycles": 0
-    },
-    {
-      "fleet_id": "F_003",
-      "owner": "",
-      "ships": [],
-      "ground_forces": [],
-      "air_forces": [],
-      "naval_forces": [],
       "current_system": "",
       "destination_system": "",
       "eta_cycles": 0
     }
-    // Up to 10 fleets can be added for players
   ],
   "mega_projects": [
     {
       "project_id": "MP_001",
-      "owner": "",
-      "project_type": "",
-      "target_system": "",
-      "remaining_cycles": 0
-    },
-    {
-      "project_id": "MP_002",
       "owner": "",
       "project_type": "",
       "target_system": "",
@@ -60,31 +27,22 @@
       "current_mission": "",
       "target_faction": "",
       "eta_cycles": 0
-    },
-    {
-      "agent_id": "A_002",
-      "owner": "",
-      "current_mission": "",
-      "target_faction": "",
-      "eta_cycles": 0
     }
   ],
-  "events": [],
-  "combat_log": [
+  "events": [
     {
-      "combat_id": "",
-      "system": "",
-      "attacker": "",
-      "defender": "",
-      "attacker_remaining": [],
-      "defender_remaining": [],
-      "result": ""
+      "event_id": "E_001",
+      "description": "",
+      "affected_systems": [],
+      "remaining_cycles": 0
     }
   ],
+  "combat_log": [],
   "planetary_combat_log": [
     {
-      "combat_id": "",
+      "combat_id": "PC_001",
       "planet": "",
+      "terrain_type": "planet_surface",
       "attacker": "",
       "defender": "",
       "attacker_remaining": [],
