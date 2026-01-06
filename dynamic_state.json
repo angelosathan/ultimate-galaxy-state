@@ -36,5 +36,16 @@
       "affected_systems": [],
       "remaining_cycles": 0
     }
+  ],
+  "combat_log": [
+    {
+      "combat_id": "",
+      "system": "",
+      "attacker": "",
+      "defender": "",
+      "attacker_remaining": [],
+      "defender_remaining": [],
+      "result": ""
+    }
   ]
 }
