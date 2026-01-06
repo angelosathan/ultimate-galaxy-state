@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "cycle": 0,
+  "fleets": [
+    {
+      "fleet_id": "F_001",
+      "owner": "",
+      "ships": [],
+      "current_system": "",
+      "destination_system": "",
+      "eta_cycles": 0
+    }
+  ],
+  "mega_projects": [
+    {
+      "project_id": "MP_001",
+      "owner": "",
+      "project_type": "",
+      "target_system": "",
+      "remaining_cycles": 0
+    }
+  ],
+  "agents": [
+    {
+      "agent_id": "A_001",
+      "owner": "",
+      "current_mission": "",
+      "target_faction": "",
+      "eta_cycles": 0
+    }
+  ],
+  "events": [
+    {
+      "event_id": "E_001",
+      "description": "",
+      "affected_systems": [],
+      "remaining_cycles": 0
+    }
+  ]
+}
