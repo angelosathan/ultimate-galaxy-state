@@ -1,56 +1,57 @@
 {
-  "version": 2,
+  "version": 1,
   "cycle": 0,
   "fleet_orders": [
     {
-      "order_id": "FO_001",
-      "player": "",
       "fleet_id": "",
+      "owner": "",
       "destination_system": "",
       "eta_cycles": 0
     }
   ],
   "mega_project_orders": [
     {
-      "order_id": "MPO_001",
-      "player": "",
       "project_id": "",
+      "owner": "",
       "project_type": "",
       "target_system": "",
+      "assigned_cycles": 0,
+      "cost": {
+        "minerals": 0,
+        "energy": 0,
+        "credits": 0
+      }
+    }
+  ],
+  "unit_training_orders": [
+    {
+      "training_id": "",
+      "player": "",
+      "unit_type": "",
+      "quantity": 0,
+      "system": "",
       "assigned_cycles": 0
     }
   ],
   "agent_orders": [
     {
-      "order_id": "AO_001",
-      "player": "",
       "agent_id": "",
-      "mission": "",
+      "owner": "",
+      "mission_type": "",
       "target_faction": "",
+      "target_system": "",
       "eta_cycles": 0
     }
   ],
   "battle_tactics": [
     {
-      "combat_id": "PC_001",
-      "attacker_action": "",
-      "defender_action": "",
-      "attacker_abilities": [],
-      "defender_abilities": []
-    },
-    {
-      "combat_id": "PC_002",
-      "attacker_action": "",
-      "defender_action": "",
-      "attacker_abilities": [],
-      "defender_abilities": []
-    },
-    {
-      "combat_id": "PC_003",
-      "attacker_action": "",
-      "defender_action": "",
-      "attacker_abilities": [],
-      "defender_abilities": []
+      "combat_id": "",
+      "player": "",
+      "tactics": {
+        "focus": "defense/offense/mixed",
+        "priority_targets": [],
+        "special_abilities": []
+      }
     }
   ]
 }
