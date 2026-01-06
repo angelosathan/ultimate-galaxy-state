@@ -1,9 +1,17 @@
 {
-  "version": 1,
+  "version": 2,
   "cycle": 0,
   "fleets": [
     {
       "fleet_id": "F_001",
+      "owner": "",
+      "ships": [],
+      "current_system": "",
+      "destination_system": "",
+      "eta_cycles": 0
+    },
+    {
+      "fleet_id": "F_002",
       "owner": "",
       "ships": [],
       "current_system": "",
@@ -51,7 +59,38 @@
       "result": "",
       "cycle_started": 0,
       "cycle_last_updated": 0,
-      "battle_report": []
+      "battle_report": [],
+      "flavor_report": ""
+    },
+    {
+      "combat_id": "PC_002",
+      "planet": "",
+      "terrain_type": "ocean",
+      "attacker": "",
+      "defender": "",
+      "attacker_remaining": [],
+      "defender_remaining": [],
+      "reinforcements": [],
+      "result": "",
+      "cycle_started": 0,
+      "cycle_last_updated": 0,
+      "battle_report": [],
+      "flavor_report": ""
+    },
+    {
+      "combat_id": "PC_003",
+      "planet": "",
+      "terrain_type": "airspace",
+      "attacker": "",
+      "defender": "",
+      "attacker_remaining": [],
+      "defender_remaining": [],
+      "reinforcements": [],
+      "result": "",
+      "cycle_started": 0,
+      "cycle_last_updated": 0,
+      "battle_report": [],
+      "flavor_report": ""
     }
   ]
 }
