@@ -1,17 +1,57 @@
 {
   "version": 2,
   "cycle": 0,
+  "players": [
+    {
+      "slot": 1,
+      "faction": "",
+      "name": "",
+      "resources": {
+        "minerals": 0,
+        "energy": 0,
+        "credits": 0
+      },
+      "production": {
+        "minerals": 100,
+        "energy": 50,
+        "credits": 50
+      }
+    },
+    {
+      "slot": 2,
+      "faction": "",
+      "name": "",
+      "resources": {
+        "minerals": 0,
+        "energy": 0,
+        "credits": 0
+      },
+      "production": {
+        "minerals": 100,
+        "energy": 50,
+        "credits": 50
+      }
+    },
+    {
+      "slot": 3,
+      "faction": "",
+      "name": "",
+      "resources": {
+        "minerals": 0,
+        "energy": 0,
+        "credits": 0
+      },
+      "production": {
+        "minerals": 100,
+        "energy": 50,
+        "credits": 50
+      }
+    }
+    // Slots 4–10 can be added similarly
+  ],
   "fleets": [
     {
       "fleet_id": "F_001",
-      "owner": "",
-      "ships": [],
-      "current_system": "",
-      "destination_system": "",
-      "eta_cycles": 0
-    },
-    {
-      "fleet_id": "F_002",
       "owner": "",
       "ships": [],
       "current_system": "",
@@ -25,9 +65,33 @@
       "owner": "",
       "project_type": "",
       "target_system": "",
+      "remaining_cycles": 0,
+      "cost": {
+        "minerals": 0,
+        "energy": 0,
+        "credits": 0
+      },
+      "effect": ""
+    }
+  ],
+  "unit_training": [
+    {
+      "training_id": "UT_001",
+      "player": "",
+      "unit_type": "",
+      "quantity": 0,
+      "system": "",
       "remaining_cycles": 0
     }
   ],
+  "planetary_garrisons": {
+    "SystemNameExample": [
+      {
+        "owner": "",
+        "units": []
+      }
+    ]
+  },
   "agents": [
     {
       "agent_id": "A_001",
@@ -45,52 +109,31 @@
       "remaining_cycles": 0
     }
   ],
-  "combat_log": [],
   "planetary_combat_log": [
     {
-      "combat_id": "PC_001",
+      "combat_id": "",
       "planet": "",
+      "attacker": "",
+      "defender": "",
+      "attacker_remaining": [],
+      "defender_remaining": [],
+      "reinforcements": [],
       "terrain_type": "planet_surface",
-      "attacker": "",
-      "defender": "",
-      "attacker_remaining": [],
-      "defender_remaining": [],
-      "reinforcements": [],
-      "result": "",
-      "cycle_started": 0,
-      "cycle_last_updated": 0,
       "battle_report": [],
+      "result": "",
+      "cycle_last_updated": 0,
       "flavor_report": ""
-    },
+    }
+  ],
+  "combat_log": [
     {
-      "combat_id": "PC_002",
-      "planet": "",
-      "terrain_type": "ocean",
+      "combat_id": "",
+      "system": "",
       "attacker": "",
       "defender": "",
       "attacker_remaining": [],
       "defender_remaining": [],
-      "reinforcements": [],
-      "result": "",
-      "cycle_started": 0,
-      "cycle_last_updated": 0,
-      "battle_report": [],
-      "flavor_report": ""
-    },
-    {
-      "combat_id": "PC_003",
-      "planet": "",
-      "terrain_type": "airspace",
-      "attacker": "",
-      "defender": "",
-      "attacker_remaining": [],
-      "defender_remaining": [],
-      "reinforcements": [],
-      "result": "",
-      "cycle_started": 0,
-      "cycle_last_updated": 0,
-      "battle_report": [],
-      "flavor_report": ""
+      "result": ""
     }
   ]
 }
