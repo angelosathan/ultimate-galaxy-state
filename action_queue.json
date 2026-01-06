@@ -1,3 +1,64 @@
 {
-  "queue": []
+  "queue": [
+    {
+      "player": "P1",
+      "action_type": "",
+      "target_id": "",
+      "details": {}
+    },
+    {
+      "player": "P2",
+      "action_type": "",
+      "target_id": "",
+      "details": {}
+    },
+    {
+      "player": "P3",
+      "action_type": "",
+      "target_id": "",
+      "details": {}
+    },
+    {
+      "player": "P4",
+      "action_type": "",
+      "target_id": "",
+      "details": {}
+    },
+    {
+      "player": "P5",
+      "action_type": "",
+      "target_id": "",
+      "details": {}
+    },
+    {
+      "player": "P6",
+      "action_type": "",
+      "target_id": "",
+      "details": {}
+    },
+    {
+      "player": "P7",
+      "action_type": "",
+      "target_id": "",
+      "details": {}
+    },
+    {
+      "player": "P8",
+      "action_type": "",
+      "target_id": "",
+      "details": {}
+    },
+    {
+      "player": "P9",
+      "action_type": "",
+      "target_id": "",
+      "details": {}
+    },
+    {
+      "player": "P10",
+      "action_type": "",
+      "target_id": "",
+      "details": {}
+    }
+  ]
 }
