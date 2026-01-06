@@ -1,22 +1,27 @@
 {
-  "version": 1,
-  "cycle": 0,
+  "version": 2,
+  "cycle_number": 0,
   "fleets": [
     {
       "fleet_id": "F_001",
       "owner": "",
+      "faction": "",
       "ships": [],
       "current_system": "",
       "destination_system": "",
-      "eta_cycles": 0
+      "eta_cycles": 0,
+      "tactic": "balanced"
     }
   ],
   "mega_projects": [
     {
       "project_id": "MP_001",
       "owner": "",
+      "faction": "",
       "project_type": "",
       "target_system": "",
+      "status": "pending",
+      "total_cycles": 0,
       "remaining_cycles": 0
     }
   ],
@@ -24,9 +29,11 @@
     {
       "agent_id": "A_001",
       "owner": "",
+      "faction": "",
       "current_mission": "",
       "target_faction": "",
-      "eta_cycles": 0
+      "eta_cycles": 0,
+      "agent_type": ""
     }
   ],
   "events": [
@@ -34,9 +41,12 @@
       "event_id": "E_001",
       "description": "",
       "affected_systems": [],
-      "remaining_cycles": 0
+      "remaining_cycles": 0,
+      "event_type": "",
+      "severity": ""
     }
   ],
+  "battles": [],
   "combat_log": [
     {
       "combat_id": "",
@@ -45,7 +55,8 @@
       "defender": "",
       "attacker_remaining": [],
       "defender_remaining": [],
-      "result": ""
+      "result": "",
+      "cycle_events": []
     }
   ]
 }
