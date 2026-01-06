@@ -1,27 +1,55 @@
 {
-  "version": 2,
-  "cycle_number": 0,
+  "version": 1,
+  "cycle": 0,
   "fleets": [
     {
       "fleet_id": "F_001",
       "owner": "",
-      "faction": "",
       "ships": [],
+      "ground_forces": [],
+      "air_forces": [],
+      "naval_forces": [],
       "current_system": "",
       "destination_system": "",
-      "eta_cycles": 0,
-      "tactic": "balanced"
+      "eta_cycles": 0
+    },
+    {
+      "fleet_id": "F_002",
+      "owner": "",
+      "ships": [],
+      "ground_forces": [],
+      "air_forces": [],
+      "naval_forces": [],
+      "current_system": "",
+      "destination_system": "",
+      "eta_cycles": 0
+    },
+    {
+      "fleet_id": "F_003",
+      "owner": "",
+      "ships": [],
+      "ground_forces": [],
+      "air_forces": [],
+      "naval_forces": [],
+      "current_system": "",
+      "destination_system": "",
+      "eta_cycles": 0
     }
+    // Up to 10 fleets can be added for players
   ],
   "mega_projects": [
     {
       "project_id": "MP_001",
       "owner": "",
-      "faction": "",
       "project_type": "",
       "target_system": "",
-      "status": "pending",
-      "total_cycles": 0,
+      "remaining_cycles": 0
+    },
+    {
+      "project_id": "MP_002",
+      "owner": "",
+      "project_type": "",
+      "target_system": "",
       "remaining_cycles": 0
     }
   ],
@@ -29,24 +57,19 @@
     {
       "agent_id": "A_001",
       "owner": "",
-      "faction": "",
       "current_mission": "",
       "target_faction": "",
-      "eta_cycles": 0,
-      "agent_type": ""
-    }
-  ],
-  "events": [
+      "eta_cycles": 0
+    },
     {
-      "event_id": "E_001",
-      "description": "",
-      "affected_systems": [],
-      "remaining_cycles": 0,
-      "event_type": "",
-      "severity": ""
+      "agent_id": "A_002",
+      "owner": "",
+      "current_mission": "",
+      "target_faction": "",
+      "eta_cycles": 0
     }
   ],
-  "battles": [],
+  "events": [],
   "combat_log": [
     {
       "combat_id": "",
@@ -55,8 +78,22 @@
       "defender": "",
       "attacker_remaining": [],
       "defender_remaining": [],
+      "result": ""
+    }
+  ],
+  "planetary_combat_log": [
+    {
+      "combat_id": "",
+      "planet": "",
+      "attacker": "",
+      "defender": "",
+      "attacker_remaining": [],
+      "defender_remaining": [],
+      "reinforcements": [],
       "result": "",
-      "cycle_events": []
+      "cycle_started": 0,
+      "cycle_last_updated": 0,
+      "battle_report": []
     }
   ]
 }
