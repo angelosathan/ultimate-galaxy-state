@@ -1,139 +1,168 @@
 {
   "version": 2,
   "cycle": 0,
+  "tokens": {
+    "command": 5,
+    "industry": 4,
+    "mutation": 2,
+    "doom": 0
+  },
   "players": [
     {
-      "slot": 1,
+      "slot_id": "P_001",
       "faction": "",
-      "name": "",
+      "empire_name": "",
+      "homeworld": "",
+      "population": 0,
+      "generals": [],
+      "projects_queue": [],
+      "fleets": [],
       "resources": {
-        "minerals": 0,
+        "biomass": 0,
         "energy": 0,
-        "credits": 0
-      },
-      "production": {
-        "minerals": 100,
-        "energy": 50,
-        "credits": 50
+        "metals": 0
       }
     },
     {
-      "slot": 2,
+      "slot_id": "P_002",
       "faction": "",
-      "name": "",
+      "empire_name": "",
+      "homeworld": "",
+      "population": 0,
+      "generals": [],
+      "projects_queue": [],
+      "fleets": [],
       "resources": {
-        "minerals": 0,
+        "biomass": 0,
         "energy": 0,
-        "credits": 0
-      },
-      "production": {
-        "minerals": 100,
-        "energy": 50,
-        "credits": 50
+        "metals": 0
       }
     },
     {
-      "slot": 3,
+      "slot_id": "P_003",
       "faction": "",
-      "name": "",
+      "empire_name": "",
+      "homeworld": "",
+      "population": 0,
+      "generals": [],
+      "projects_queue": [],
+      "fleets": [],
       "resources": {
-        "minerals": 0,
+        "biomass": 0,
         "energy": 0,
-        "credits": 0
-      },
-      "production": {
-        "minerals": 100,
-        "energy": 50,
-        "credits": 50
+        "metals": 0
+      }
+    },
+    {
+      "slot_id": "P_004",
+      "faction": "",
+      "empire_name": "",
+      "homeworld": "",
+      "population": 0,
+      "generals": [],
+      "projects_queue": [],
+      "fleets": [],
+      "resources": {
+        "biomass": 0,
+        "energy": 0,
+        "metals": 0
+      }
+    },
+    {
+      "slot_id": "P_005",
+      "faction": "",
+      "empire_name": "",
+      "homeworld": "",
+      "population": 0,
+      "generals": [],
+      "projects_queue": [],
+      "fleets": [],
+      "resources": {
+        "biomass": 0,
+        "energy": 0,
+        "metals": 0
+      }
+    },
+    {
+      "slot_id": "P_006",
+      "faction": "",
+      "empire_name": "",
+      "homeworld": "",
+      "population": 0,
+      "generals": [],
+      "projects_queue": [],
+      "fleets": [],
+      "resources": {
+        "biomass": 0,
+        "energy": 0,
+        "metals": 0
+      }
+    },
+    {
+      "slot_id": "P_007",
+      "faction": "",
+      "empire_name": "",
+      "homeworld": "",
+      "population": 0,
+      "generals": [],
+      "projects_queue": [],
+      "fleets": [],
+      "resources": {
+        "biomass": 0,
+        "energy": 0,
+        "metals": 0
+      }
+    },
+    {
+      "slot_id": "P_008",
+      "faction": "",
+      "empire_name": "",
+      "homeworld": "",
+      "population": 0,
+      "generals": [],
+      "projects_queue": [],
+      "fleets": [],
+      "resources": {
+        "biomass": 0,
+        "energy": 0,
+        "metals": 0
+      }
+    },
+    {
+      "slot_id": "P_009",
+      "faction": "",
+      "empire_name": "",
+      "homeworld": "",
+      "population": 0,
+      "generals": [],
+      "projects_queue": [],
+      "fleets": [],
+      "resources": {
+        "biomass": 0,
+        "energy": 0,
+        "metals": 0
+      }
+    },
+    {
+      "slot_id": "P_010",
+      "faction": "",
+      "empire_name": "",
+      "homeworld": "",
+      "population": 0,
+      "generals": [],
+      "projects_queue": [],
+      "fleets": [],
+      "resources": {
+        "biomass": 0,
+        "energy": 0,
+        "metals": 0
       }
     }
-    // Slots 4–10 can be added similarly
   ],
-  "fleets": [
-    {
-      "fleet_id": "F_001",
-      "owner": "",
-      "ships": [],
-      "current_system": "",
-      "destination_system": "",
-      "eta_cycles": 0
-    }
-  ],
-  "mega_projects": [
-    {
-      "project_id": "MP_001",
-      "owner": "",
-      "project_type": "",
-      "target_system": "",
-      "remaining_cycles": 0,
-      "cost": {
-        "minerals": 0,
-        "energy": 0,
-        "credits": 0
-      },
-      "effect": ""
-    }
-  ],
-  "unit_training": [
-    {
-      "training_id": "UT_001",
-      "player": "",
-      "unit_type": "",
-      "quantity": 0,
-      "system": "",
-      "remaining_cycles": 0
-    }
-  ],
-  "planetary_garrisons": {
-    "SystemNameExample": [
-      {
-        "owner": "",
-        "units": []
-      }
-    ]
-  },
-  "agents": [
-    {
-      "agent_id": "A_001",
-      "owner": "",
-      "current_mission": "",
-      "target_faction": "",
-      "eta_cycles": 0
-    }
-  ],
-  "events": [
-    {
-      "event_id": "E_001",
-      "description": "",
-      "affected_systems": [],
-      "remaining_cycles": 0
-    }
-  ],
-  "planetary_combat_log": [
-    {
-      "combat_id": "",
-      "planet": "",
-      "attacker": "",
-      "defender": "",
-      "attacker_remaining": [],
-      "defender_remaining": [],
-      "reinforcements": [],
-      "terrain_type": "planet_surface",
-      "battle_report": [],
-      "result": "",
-      "cycle_last_updated": 0,
-      "flavor_report": ""
-    }
-  ],
-  "combat_log": [
-    {
-      "combat_id": "",
-      "system": "",
-      "attacker": "",
-      "defender": "",
-      "attacker_remaining": [],
-      "defender_remaining": [],
-      "result": ""
-    }
-  ]
+  "mega_projects": [],
+  "fleets": [],
+  "agents": [],
+  "events": [],
+  "combat_log": [],
+  "instructions": "Welcome to Ultimate Galaxy! Type START to begin. You will choose your faction, name your empire, and be assigned a homeworld far from others. All orders you give (building, fleet movement, training, research) will be handled automatically by the engine using a silent token system. Progress will be reported in flavored narrative each cycle."
 }
